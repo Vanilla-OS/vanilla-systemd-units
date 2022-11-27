@@ -1,0 +1,6 @@
+/debian/.debhelper
+/debian/vanilla-systemd-units/
+/debian/debhelper-build-stamp
+/debian/vanilla-systemd-units.debhelper.log
+/debian/vanilla-systemd-units.postrm.debhelper
+/debian/vanilla-systemd-units.substvars
