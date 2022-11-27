@@ -1,0 +1,11 @@
+[Unit]
+Description=Managed /usr directory
+
+[Mount]
+What=/.system/usr
+Where=/.system/usr
+Type=none
+Options=bind,ro
+
+[Install]
+WantedBy=multi-user.target

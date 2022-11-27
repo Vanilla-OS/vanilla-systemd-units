@@ -1,0 +1,11 @@
+[Unit]
+Description=Managed /var directory
+
+[Mount]
+What=/.system/var
+Where=/.system/var
+Type=none
+Options=bind,ro
+
+[Install]
+WantedBy=multi-user.target
