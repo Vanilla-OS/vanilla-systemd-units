@@ -1,6 +1,6 @@
 #!/bin/bash
 umount -l /usr
-units="\x2esystem-usr.mount \x2esystem-usr-local.mount"
+units="\x2esystem-usr.mount"
 
 for unit in $units; do
   echo "Enabling unit file: $unit..."
