@@ -1,6 +1,6 @@
 #!/bin/bash
-umount -l /usr /var
-units="\x2esystem-usr.mount \x2esystem-var.mount \x2esystem-usr-local.mount \x2esystem-var-log.mount"
+umount -l /usr
+units="\x2esystem-usr.mount \x2esystem-usr-local.mount"
 
 for unit in $units; do
   echo "Enabling unit file: $unit..."
@@ -9,6 +9,6 @@ done
 
 systemctl daemon-reload
 
-umount -l /usr /var  # workaround: dpkg still needs to be able to access /usr and /var to complete the transaction
+umount -l /usr  # workaround: dpkg still needs to be able to access /usr to complete the transaction
 echo "Reboot to complete installation."
 true

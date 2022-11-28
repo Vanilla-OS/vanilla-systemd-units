@@ -1,4 +1,2 @@
 \x2esystem-usr.mount /usr/lib/systemd/system
-\x2esystem-var.mount /usr/lib/systemd/system
 \x2esystem-usr-local.mount /usr/lib/systemd/system
-\x2esystem-var-log.mount /usr/lib/systemd/system
