@@ -1,0 +1,13 @@
+[Unit]
+Description=Managed /var/log directory
+After=\x2esystem-var.mount
+Requires=\x2esystem-var.mount
+
+[Mount]
+What=/home/.var/log
+Where=/.system/var/log
+Type=none
+Options=bind,rw
+
+[Install]
+WantedBy=multi-user.target

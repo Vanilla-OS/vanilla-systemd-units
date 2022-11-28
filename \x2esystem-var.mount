@@ -1,5 +1,9 @@
 [Unit]
 Description=Managed /var directory
+DefaultDependencies=no
+Conflicts=umount.target
+After=systemd-remount-fs.service
+Requires=systemd-remount-fs.service
 
 [Mount]
 What=/.system/var

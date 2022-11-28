@@ -1,7 +1,4 @@
 #!/usr/bin/make -f
 
-override_dh_installinit:
-	dh_installsystemd --name="\x2esystem-var"
-	dh_installsystemd --name="\x2esystem-usr"
 %:
 	dh $@

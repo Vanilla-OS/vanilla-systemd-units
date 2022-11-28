@@ -1,0 +1,13 @@
+[Unit]
+Description=Managed /usr/local directory
+After=\x2esystem-usr.mount
+Requires=\x2esystem-usr.mount
+
+[Mount]
+What=/home/.usr/local
+Where=/.system/usr/local
+Type=none
+Options=bind,rw
+
+[Install]
+WantedBy=multi-user.target
