@@ -1,5 +1,5 @@
-vanilla-systemd-units (0.0.4) kinetic; urgency=low
+vanilla-systemd-units (0.0.5) kinetic; urgency=low
 
-  * First release
+  * Add VSO Auto Update unit
 
- -- Mirko Brombin <send@mirko.pm>  Mon, 06 Sep 2022 21:22:00 +0100
+ -- Mirko Brombin <send@mirko.pm>  Mon, 07 Dec 2022 21:22:00 +0100

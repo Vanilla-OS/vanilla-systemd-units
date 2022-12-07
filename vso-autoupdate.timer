@@ -1,0 +1,12 @@
+[Unit]
+Description=VSO Autoupdate Timer
+Requires=vso-autoupdate.service
+After=vso-autoupdate.service
+
+[Timer]
+OnBootSec=1h
+OnUnitActiveSec=1h
+Unit=vso-autoupdate.service
+
+[Install]
+WantedBy=timers.target

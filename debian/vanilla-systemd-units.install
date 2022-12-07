@@ -1,1 +1,4 @@
 \x2esystem-usr.mount /usr/lib/systemd/system
+
+vso-autoupdate.service /usr/lib/systemd/system
+vso-autoupdate.timer /usr/lib/systemd/system
