@@ -1,6 +1,6 @@
 [Unit]
 Description=VSO Auto Update
-After=network.target
+After=network-online.target
 
 [Service]
 Type=oneshot
