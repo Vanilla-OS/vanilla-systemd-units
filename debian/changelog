@@ -1,3 +1,9 @@
+vanilla-systemd-units (1.0.0-1) lunar; urgency=low
+
+  * Add VSO Auto Update unit
+
+ -- Mirko Brombin <send@mirko.pm>  Mon, 07 Dec 2022 21:22:00 +0100
+
 vanilla-systemd-units (1.0.0) kinetic; urgency=low
 
   * Add VSO Auto Update unit
