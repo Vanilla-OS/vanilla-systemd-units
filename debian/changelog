@@ -1,4 +1,4 @@
-vanilla-systemd-units (1.0.0-1) lunar; urgency=low
+vanilla-systemd-units (1.0.1) unstable; urgency=low
 
   * Add VSO Auto Update unit
 
